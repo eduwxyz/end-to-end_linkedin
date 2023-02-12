@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "end-to-end-linkedin-scraping"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "end_to_end_linkedin_scraping"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
