@@ -20,3 +20,16 @@ A motivação para construir esse projeto, é para fornecer uma boa oportunidade
 # Output
 
 Em construção...
+
+# Configuração
+
+Siga as etapas abaixo para configurar o pipeline:
+
+Primeiro clone o repositório em seu diretório inicial e siga as etapas.
+
+```
+git clone https://github.com/DevShy/end-to-end_linkedin
+cd end-to-end_linkedin_scraping
+```
+
+1. [Overview][instruções/overview.md]
