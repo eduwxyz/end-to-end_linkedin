@@ -7,3 +7,16 @@ Este repositório tem como objetivo extrair dados do LinkedIn e montar um projet
 A motivação para construir esse projeto, é para fornecer uma boa oportunidade para desenvolver habilidades e experiência em uma variedade de ferramentas. Como tal, o projeto é mais complexo do que o necessário, utilizando dbt, airflow, docker e armazenamento baseado em nuvem.
 
 # Arquitetura
+
+<img src="https://github.com/DevShy/end-to-end_linkedin/blob/main/imagens/pipeline.png" width=70% height=70%>
+
+1. Extração dos dados utilizando a biblioteca scrapy;
+2. Fazendo carregamento dos dados extraídos para o postgreSQL;
+3. Fazer o carregamento dos dados para a Google Cloud Plataform;
+4. Fazer transformações nos dados utilizando o dbt;
+5. Para utilizar orquestração utilizaremos o Airflow e o Docker;
+6. Criar dashboards utilizando o metabase.
+
+# Output
+
+Em construção...
