@@ -32,4 +32,5 @@ git clone https://github.com/DevShy/end-to-end_linkedin
 cd end-to-end_linkedin_scraping
 ```
 
-1. [Overview][instruções/overview.md]
+1. [Overview](instrucoes/overview.md)
+1. [Scrapy](instrucoes/scrapy.md)
