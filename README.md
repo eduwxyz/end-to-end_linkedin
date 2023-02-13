@@ -33,4 +33,5 @@ cd end-to-end_linkedin_scraping
 ```
 
 1. [Overview](instrucoes/overview.md)
+1. [Poetry](instrucoes/poetry.md)
 1. [Scrapy](instrucoes/scrapy.md)
