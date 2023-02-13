@@ -24,7 +24,9 @@ NEWSPIDER_MODULE = "end_to_end_linkedin.spiders"
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
-ROTATING_PROXY_LIST_PATH = "/home/eduardo/Documentos/end_to_end_linkedin/proxy.txt"
+ROTATING_PROXY_LIST_PATH = (
+    "/home/eduarodomachado/Documentos/end-to-end_linkedin/proxy.txt"
+)
 
 DOWNLOADER_MIDDLEWARES = {
     # ...
