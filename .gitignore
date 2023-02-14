@@ -1,3 +1,2 @@
-*.tfvars,
-*.backup,
-*.tfstate
+.env
+.tfvars
