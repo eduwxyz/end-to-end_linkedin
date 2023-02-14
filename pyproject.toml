@@ -4,11 +4,12 @@ version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
-packages = [{include = "end_to_end_linkedin_scraping"}]
+packages = [{ include = "end_to_end_linkedin_scraping" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 scrapy = "^2.8.0"
+scrapy-rotating-proxies = "^0.6.2"
 
 
 [build-system]
