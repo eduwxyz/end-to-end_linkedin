@@ -1,4 +1,7 @@
-from end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+from end_to_end_linkedin_scraping.end_to_end_linkedin.spiders.linkedin_jobs import (
+    LinkedJobsSpider,
+)
+
 from scrapy.crawler import CrawlerProcess
 
 

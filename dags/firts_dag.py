@@ -3,9 +3,17 @@ from airflow.operators.python import PythonOperator, BranchPythonOperator
 from datetime import datetime
 from random import randint
 from airflow.operators.bash import BashOperator
-import sys
+from end_to_end_linkedin_scraping.end_to_end_linkedin.spiders.linkedin_jobs import (
+    LinkedJobsSpider,
+)
 
-sys.path.append("/opt/airflow/dags/scripts")
+from scrapy.crawler import CrawlerProcess
+
+
+def main():
+    process = CrawlerProcess()
+    process.crawl(LinkedJobsSpider)
+    process.start()
 
 
 with DAG(
@@ -13,6 +21,6 @@ with DAG(
 ) as dag:
     download_data = PythonOperator(
         task_id="download_data",
-        python_callable=start_scrapy,
+        python_callable=main,
     )
 x
