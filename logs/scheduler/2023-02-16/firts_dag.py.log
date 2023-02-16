@@ -1,0 +1,406 @@
+[2023-02-16T00:00:30.746+0000] {processor.py:153} INFO - Started process (PID=808) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:00:30.747+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:00:30.747+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:00:30.747+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:00:30.756+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:00:30.755+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6, in <module>
+    from start_crawl import start_scrapy
+ModuleNotFoundError: No module named 'start_crawl'
+[2023-02-16T00:00:30.757+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:00:30.788+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.047 seconds
+[2023-02-16T00:00:37.837+0000] {processor.py:153} INFO - Started process (PID=826) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:00:37.838+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:00:37.840+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:00:37.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:00:37.854+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:00:37.853+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6, in <module>
+    from end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+ModuleNotFoundError: No module named 'end_to_end_linkedin'
+[2023-02-16T00:00:37.855+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:00:37.889+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.057 seconds
+[2023-02-16T00:00:47.848+0000] {processor.py:153} INFO - Started process (PID=882) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:00:47.849+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:00:47.850+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:00:47.850+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:00:47.862+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:00:47.861+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6, in <module>
+    from end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+ModuleNotFoundError: No module named 'end_to_end_linkedin'
+[2023-02-16T00:00:47.863+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:00:47.900+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.058 seconds
+[2023-02-16T00:00:56.941+0000] {processor.py:153} INFO - Started process (PID=883) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:00:56.942+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:00:56.943+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:00:56.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:00:56.951+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:00:56.950+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6, in <module>
+    from spiders.linkedin_jobs import LinkedJobsSpider
+ModuleNotFoundError: No module named 'spiders'
+[2023-02-16T00:00:56.952+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:00:56.981+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.043 seconds
+[2023-02-16T00:01:27.797+0000] {processor.py:153} INFO - Started process (PID=971) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:01:27.797+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:01:27.798+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:01:27.798+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:01:27.805+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:01:27.805+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6, in <module>
+    from spiders.linkedin_jobs import LinkedJobsSpider
+ModuleNotFoundError: No module named 'spiders'
+[2023-02-16T00:01:27.806+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:01:27.831+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.041 seconds
+[2023-02-16T00:01:47.916+0000] {processor.py:153} INFO - Started process (PID=1019) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:01:47.917+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:01:47.918+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:01:47.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:01:47.925+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:01:47.925+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6, in <module>
+    from end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+ModuleNotFoundError: No module named 'end_to_end_linkedin'
+[2023-02-16T00:01:47.926+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:01:47.954+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.042 seconds
+[2023-02-16T00:02:04.600+0000] {processor.py:153} INFO - Started process (PID=1044) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:02:04.601+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:02:04.602+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:02:04.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:02:04.604+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:02:04.603+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6
+    from ./end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+          ^
+SyntaxError: invalid syntax
+[2023-02-16T00:02:04.604+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:02:04.635+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.039 seconds
+[2023-02-16T00:02:35.514+0000] {processor.py:153} INFO - Started process (PID=1132) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:02:35.516+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:02:35.517+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:02:35.517+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:02:35.524+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:02:35.519+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6
+    from ./end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+          ^
+SyntaxError: invalid syntax
+[2023-02-16T00:02:35.525+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:02:35.566+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.059 seconds
+[2023-02-16T00:03:06.192+0000] {processor.py:153} INFO - Started process (PID=1204) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:03:06.194+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:03:06.194+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:03:06.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:03:06.197+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:03:06.196+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6
+    from ./end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+          ^
+SyntaxError: invalid syntax
+[2023-02-16T00:03:06.197+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:03:06.234+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.045 seconds
+[2023-02-16T00:03:36.860+0000] {processor.py:153} INFO - Started process (PID=1276) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:03:36.862+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:03:36.862+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:03:36.862+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:03:36.866+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:03:36.864+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6
+    from ./end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+          ^
+SyntaxError: invalid syntax
+[2023-02-16T00:03:36.867+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:03:36.898+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.041 seconds
+[2023-02-16T00:04:06.974+0000] {processor.py:153} INFO - Started process (PID=1357) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:04:06.975+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:04:06.977+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:04:06.976+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:04:06.979+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:04:06.978+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6
+    from ./end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+          ^
+SyntaxError: invalid syntax
+[2023-02-16T00:04:06.980+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:04:07.015+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.045 seconds
+[2023-02-16T00:04:37.996+0000] {processor.py:153} INFO - Started process (PID=1436) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:04:37.998+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:04:37.999+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:04:37.999+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:04:38.002+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:04:38.001+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6
+    from ./end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+          ^
+SyntaxError: invalid syntax
+[2023-02-16T00:04:38.002+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:04:38.032+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.041 seconds
+[2023-02-16T00:05:08.522+0000] {processor.py:153} INFO - Started process (PID=1510) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:05:08.524+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:05:08.525+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:05:08.525+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:05:08.527+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:05:08.526+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6
+    from ./end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+          ^
+SyntaxError: invalid syntax
+[2023-02-16T00:05:08.527+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:05:08.560+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.043 seconds
+[2023-02-16T00:05:38.927+0000] {processor.py:153} INFO - Started process (PID=1582) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:05:38.928+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:05:38.929+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:05:38.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:05:38.931+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:05:38.930+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6
+    from ./end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+          ^
+SyntaxError: invalid syntax
+[2023-02-16T00:05:38.932+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:05:38.960+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.037 seconds
+[2023-02-16T00:06:09.015+0000] {processor.py:153} INFO - Started process (PID=1670) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:06:09.016+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:06:09.017+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:06:09.017+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:06:09.020+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:06:09.019+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6
+    from ./end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+          ^
+SyntaxError: invalid syntax
+[2023-02-16T00:06:09.020+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:06:09.064+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.053 seconds
+[2023-02-16T00:06:39.616+0000] {processor.py:153} INFO - Started process (PID=1742) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:06:39.617+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:06:39.618+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:06:39.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:06:39.621+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:06:39.620+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6
+    from ./end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+          ^
+SyntaxError: invalid syntax
+[2023-02-16T00:06:39.622+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:06:39.667+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.055 seconds
+[2023-02-16T00:07:56.617+0000] {processor.py:153} INFO - Started process (PID=53) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:07:56.619+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:07:56.621+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:07:56.621+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:07:56.626+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:07:56.624+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6
+    from ./end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+          ^
+SyntaxError: invalid syntax
+[2023-02-16T00:07:56.627+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:07:56.663+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.054 seconds
+[2023-02-16T00:08:27.514+0000] {processor.py:153} INFO - Started process (PID=126) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:08:27.515+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:08:27.517+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:08:27.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:08:27.521+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:08:27.518+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6
+    from ./end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+          ^
+SyntaxError: invalid syntax
+[2023-02-16T00:08:27.522+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:08:27.556+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.047 seconds
+[2023-02-16T00:08:57.589+0000] {processor.py:153} INFO - Started process (PID=198) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:08:57.591+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:08:57.592+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:08:57.591+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:08:57.594+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:08:57.593+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6
+    from ./end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+          ^
+SyntaxError: invalid syntax
+[2023-02-16T00:08:57.595+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:08:57.625+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.041 seconds
+[2023-02-16T00:09:28.027+0000] {processor.py:153} INFO - Started process (PID=286) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:09:28.029+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:09:28.030+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:09:28.029+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:09:28.032+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:09:28.031+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6
+    from ./end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+          ^
+SyntaxError: invalid syntax
+[2023-02-16T00:09:28.032+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:09:28.062+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.038 seconds
+[2023-02-16T00:09:49.892+0000] {processor.py:153} INFO - Started process (PID=342) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:09:49.893+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:09:49.895+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:09:49.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:09:49.908+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:09:49.907+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6, in <module>
+    from end_to_end_linkedin.spiders.linkedin_jobs import LinkedJobsSpider
+ModuleNotFoundError: No module named 'end_to_end_linkedin'
+[2023-02-16T00:09:49.909+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:09:49.941+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.053 seconds
+[2023-02-16T00:10:00.005+0000] {processor.py:153} INFO - Started process (PID=359) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:00.006+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:10:00.006+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:10:00.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:00.018+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:10:00.016+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6, in <module>
+    from start_crawl import start_scrapy
+ModuleNotFoundError: No module named 'start_crawl'
+[2023-02-16T00:10:00.018+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:00.052+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.051 seconds
+[2023-02-16T00:10:30.906+0000] {processor.py:153} INFO - Started process (PID=431) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:30.908+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:10:30.909+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:10:30.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:30.919+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:10:30.918+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 6, in <module>
+    from start_crawl import start_scrapy
+ModuleNotFoundError: No module named 'start_crawl'
+[2023-02-16T00:10:30.919+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:30.955+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.053 seconds
+[2023-02-16T00:10:34.455+0000] {processor.py:153} INFO - Started process (PID=469) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:34.459+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:10:34.461+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:10:34.460+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:34.495+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:10:34.494+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 14, in <module>
+    python_callable=start_scrapy,
+NameError: name 'start_scrapy' is not defined
+[2023-02-16T00:10:34.496+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:34.542+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.091 seconds
+[2023-02-16T00:10:46.572+0000] {processor.py:153} INFO - Started process (PID=487) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:46.573+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:10:46.574+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:10:46.574+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:46.588+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:10:46.587+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 14, in <module>
+    python_callable=start_scrapy,
+NameError: name 'start_scrapy' is not defined
+[2023-02-16T00:10:46.588+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:46.616+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.047 seconds
+[2023-02-16T00:10:59.688+0000] {processor.py:153} INFO - Started process (PID=504) to work on /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:59.689+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/firts_dag.py for tasks to queue
+[2023-02-16T00:10:59.690+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:10:59.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:59.704+0000] {logging_mixin.py:137} INFO - [2023-02-16T00:10:59.704+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/firts_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/firts_dag.py", line 16, in <module>
+    python_callable=start_scrapy,
+NameError: name 'start_scrapy' is not defined
+[2023-02-16T00:10:59.705+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/firts_dag.py
+[2023-02-16T00:10:59.731+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/firts_dag.py took 0.048 seconds
